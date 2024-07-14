@@ -1,11 +1,3 @@
-# FastAPI
-### Quem é o FastAPi?
-Framework FastAPI, alta performance, fácil de aprender, fácil de codar, pronto para produção.
-FastAPI é um moderno e rápido (alta performance) framework web para construção de APIs com Python 3.6 ou superior, baseado nos type hints padrões do Python.
-
-### Async
-Código assíncrono apenas significa que a linguagem tem um jeito de dizer para o computador / programa que em certo ponto, ele terá que esperar por algo para finalizar em outro lugar
-
 # Projeto
 ## WorkoutAPI
 
@@ -53,31 +45,3 @@ Para subir a API, execute:
 make run
 ```
 e acesse: http://127.0.0.1:8000/docs
-
-# Desafio Final
-    - adicionar query parameters nos endpoints
-        - atleta
-            - nome
-            - cpf
-    - customizar response de retorno de endpoints
-        - get all
-            - atleta
-                - nome
-                - centro_treinamento
-                - categoria
-    - Manipular exceção de integridade dos dados em cada módulo/tabela
-        - sqlalchemy.exc.IntegrityError e devolver a seguinte mensagem: “Já existe um atleta cadastrado com o cpf: x”
-        - status_code: 303
-    - Adicionar paginação utilizando a lib: fastapi-pagination
-        - limit e offset
-# Referências
-
-FastAPI: https://fastapi.tiangolo.com/
-
-Pydantic: https://docs.pydantic.dev/latest/
-
-SQLAlchemy: https://docs.sqlalchemy.org/en/20/
-
-Alembic: https://alembic.sqlalchemy.org/en/latest/
-
-Fastapi-pagination: https://uriyyo-fastapi-pagination.netlify.app/
